@@ -7,7 +7,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 GitHub: https://github.com/skcc-junghyunchul/ClaudeCodeTest
 Git user: skcc-junghyunchul / charliejung87@gmail.com
 
-**After every meaningful change: commit with a descriptive message and push to `origin/main`.**
+## Git workflow
+
+Commit and push to `origin/main` continuously throughout work — not just at the end. The goal is that no progress is ever lost and the GitHub history always reflects the current state of the project.
+
+- Commit after every logical unit of work: a new feature, a bug fix, a styling change, a new file
+- Never batch multiple unrelated changes into a single commit
+- Write commit messages in the imperative mood with a short subject line, followed by a blank line and bullet points if the change needs more explanation
+- Always `git push` immediately after committing — do not leave commits sitting unpushed
 
 ## Running the project
 
